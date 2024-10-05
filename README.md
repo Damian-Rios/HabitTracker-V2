@@ -23,6 +23,18 @@ OnSync Habit Tracker is a Progressive Web Application (PWA) designed to help use
    ```bash
    git clone https://github.com/Damian-Rios/HabitTracker.git
 
+2. Navigate to the project directory:
+
+   ```bash
+   cd HabitTracker
+
+3. Set up a live server:
+   * You can use an extension like **Live Server** in Visual Studio
+   Code, or use a simple HTTP server.
+
+4. Open the app in your browser
+   * Once the server is running, open your browser and navigate to [http://localhost:5500](http://localhost:5500) (or the port number shown in your terminal).
+
 ## Authors
 
 Damian Rios
