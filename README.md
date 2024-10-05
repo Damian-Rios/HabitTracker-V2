@@ -18,7 +18,8 @@ OnSync Habit Tracker is a Progressive Web Application (PWA) designed to help use
 - A web browser with PWA support
 
 ### Executing Program
-1. Clone the repository:
+1. Clone the repository: To clone, open your terminal and run the following command:
+
    ```bash
    git clone https://github.com/Damian-Rios/HabitTracker.git
 
