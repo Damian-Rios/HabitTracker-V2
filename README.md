@@ -3,10 +3,10 @@
 ### PWA Prototype
 
 
-# Habit Tracker
+# OnSync Habit Tracker
 
 ## Description
-The Habit Tracker is a Progressive Web Application (PWA) designed to help users manage and track their daily habits. Users can log activities, view their progress, and receive notifications for reminders. The application features a user-friendly interface built using HTML, CSS (Materialize), and JavaScript.
+OnSync Habit Tracker is a Progressive Web Application (PWA) designed to help users manage and track their daily habits. Users can log activities, view their progress, and receive notifications for reminders. The application features a user-friendly interface built using HTML, CSS (Materialize), and JavaScript.
 
 
 ## Getting Started
