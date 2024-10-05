@@ -1,0 +1,216 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    margin: 40px auto;
+}
+
+h4, h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.settings-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.input-field {
+    margin-bottom: 30px;
+}
+
+.input-field input {
+    border: 1px solid #80deea;
+}
+
+.input-field input:focus {
+    border-bottom: 2px solid #009688;
+    box-shadow: 0 1px 0 0 #009688;
+}
+
+.custom-colors {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #00796b;
+    transition: background-color 0.3s;
+}
+
+.red {
+    background-color: #e53935 !important;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.nav-wrapper .badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.add-icon {
+    cursor: pointer;
+}
+
+.add-icon:hover {
+    color: teal;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.day {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 1px solid #80deea;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.day:hover {
+    background-color: #b2ebf2;
+}
+
+.current-day {
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+
+.progress-value {
+    font-size: 14px;
+    color: #00796b;
+}
+
+.month-header {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.total-achieved {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px auto;
+}
+
+table {
+    margin: 20px 0;
+    min-height: 150px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+td.completed {
+    background: rgba(76, 175, 80, 0.3);
+    color: #4caf50;
+}
+
+td.not-completed {
+    background: rgba(244, 67, 54, 0.3);
+    color: #f44336;
+}
+
+td.completed::after {
+    content: '✔';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #4caf50;
+}
+
+td.not-completed::after {
+    content: '✖';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #f44336;
+}
+
+.summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation {
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .calendar {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    th {
+        padding: 8px;
+    }
+}
