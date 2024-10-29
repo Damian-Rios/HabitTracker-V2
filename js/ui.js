@@ -18,3 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var selectElems = document.querySelectorAll('select');
     M.FormSelect.init(selectElems);
 });
+
+
+if("serviceWorker" in navigator){
+    navigator.serviceWorker.register('/serviceworker.js')
+    .then((req) => console.log("Service Worker Registered!", req))
+    .catch((err) => console.log("Service Worker Registration failed", err));
+}
