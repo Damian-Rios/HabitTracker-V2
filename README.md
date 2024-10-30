@@ -35,6 +35,17 @@ OnSync Habit Tracker is a Progressive Web Application (PWA) designed to help use
 4. Open the app in your browser
    * Once the server is running, open your browser and navigate to [http://localhost:5500](http://localhost:5500) (or the port number shown in your terminal).
 
+
+### PWA Features
+## Service Worker
+The service worker caches assets for offline access and faster load times:
+- Install: Caches essential files (HTML, JS, icons).
+- Activate: Clears old caches to save storage.
+- Fetch: Uses a cache-first strategy, serving cached files and fetching new ones as needed.
+
+## Caching Strategy
+Uses a 
+
 ## Authors
 
 Damian Rios
