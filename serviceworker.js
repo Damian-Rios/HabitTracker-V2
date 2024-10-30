@@ -1,4 +1,4 @@
-const CACHE_NAME = "habit-tracker-v2";
+const CACHE_NAME = "habit-tracker-v1";
 
 const ASSETS_TO_CACHE = [
     "/",
@@ -7,7 +7,9 @@ const ASSETS_TO_CACHE = [
     "/css/materialize.min.css",
     "/js/materialize.min.js",
     "/js/ui.js",
-    "/img/OnSyncIcon.png",
+    "/img/icons/OnSyncIcon-32x32.png",
+    "/img/icons/favicon.ico",
+    "/manifest.json",
 ];
 
 // Install event

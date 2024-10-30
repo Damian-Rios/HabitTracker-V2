@@ -1,0 +1,136 @@
+{
+    "name": "OnSync - Habit Tracker",
+    "short_name": "OnSync",
+    "description": "A habit tracking app to help you stay on track with your goals.",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f5f5f5",
+    "theme_color": "#2196F3",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/icons/OnSyncIcon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/img/icons/OnSyncIcon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icons/OnSyncIcon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/img/icons/OnSyncIcon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        }
+    ],
+
+    "screenshots": [
+        {
+            "src": "/img/screenshots/addHabitScreenshot.png",
+            "type": "image/png",
+            "sizes": "1919x910",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/habitsScreenshot.png",
+            "type": "image/png",
+            "sizes": "1919x910",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/progressScreenshot.png",
+            "type": "image/png",
+            "sizes": "1919x910",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/trackerScreenshot.png",
+            "type": "image/png",
+            "sizes": "1919x910",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/settingsScreenshot.png",
+            "type": "image/png",
+            "sizes": "1919x910",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/mobileScreenshot.png",
+            "type": "image/png",
+            "sizes": "362x646",
+            "form_factor": "narrow"
+        }
+    ],
+
+    "shortcuts": [
+        {
+            "name": "Add Habit",
+            "short_name": "New Habit",
+            "description": "Quickly add a new habit",
+            "url": "/pages/habits.html",
+            "icons": [
+                {
+                    "src": "/img/screenshots/addHabitScreenshot.png",
+                    "sizes": "1919x910"
+                }
+            ]
+        },
+        {
+            "name": "View Habits",
+            "short_name": "Habits",
+            "description": "View all habits",
+            "url": "/pages/index.html",
+            "icons": [
+                {
+                    "src": "/img/screenshots/habitsScreenshot.png",
+                    "sizes": "1919x910"
+                }
+            ]
+        },
+        {
+            "name": "Track Progress",
+            "short_name": "Progress",
+            "description": "Quick access to track your daily progress",
+            "url": "/pages/progress.html",
+            "icons": [
+                {
+                    "src": "/img/screenshots/progressScreenshot.png",
+                    "sizes": "1919x910"
+                }
+            ]
+        },
+        {
+            "name": "Track Habits",
+            "short_name": "Tracker",
+            "description": "Track weekly habit progress/completion",
+            "url": "/pages/tracker.html",
+            "icons": [
+                {
+                    "src": "/img/screenshots/trackerScreenshot.png",
+                    "sizes": "1919x910"
+                }
+            ]
+        },
+        {
+            "name": "View Settings",
+            "short_name": "Settings",
+            "description": "Manage and adjust account settings and app preferences",
+            "url": "/pages/settings.html",
+            "icons": [
+                {
+                    "src": "/img/screenshots/settingsScreenshot.png",
+                    "sizes": "1919x910"
+                }
+            ]
+        }
+    ]
+}
